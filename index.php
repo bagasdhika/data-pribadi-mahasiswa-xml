@@ -19,7 +19,8 @@ echo "
 <th>NIM</th>
 <th>Nama</th>
 <th>Alamat</th>
-<th>Progdi</th>
+<th>Agama</th>
+<th>Tanggal Lahir</th>
 </tr>
  
 ";
@@ -32,7 +33,8 @@ foreach($books as $data)
 <td>{$data['nim']}</td>
 <td>{$data->nama}</td>
 <td>{$data->alamat}</td>
-<td>{$data->progdi}</td>
+<td>{$data->agama}</td>
+<td>{$data->tgllahir}</td>
 </tr>
  
 ";
